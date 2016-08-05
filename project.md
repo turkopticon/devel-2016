@@ -11,7 +11,7 @@ Six Silberman | Lilly Irani | Kai Li
 ## Table of contents
 <!-- TOC anchor -->
 
-- [Turkopticon 2.0](#turkopticon-2.0)
+- [Turkopticon 2.0](#turkopticon-20)
 - [Core team](#core-team)
 - [Table of contents](#table-of-contents)
 - [Justification](#justification)
