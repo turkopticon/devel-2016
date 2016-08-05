@@ -1,0 +1,65 @@
+# Review form
+
+## Fields
+
+- HIT name
+- HIT reward
+- MTurk requester ID
+- MTurk requester name
+- check box: "this HIT has technical problems"
+  - if checked, a textarea appears with "please explain"
+- check box: "this HIT is deceptive"
+  - if checked, a textarea appears with "please explain"
+- check box: "this HIT violates the MTurk TOS [link to TOS]"
+  - if checked, a textarea appears with "please explain"
+- radio: "How many of this HIT did you do?"
+  - "I didn't do any"
+  - "One"
+  - "More than one"
+- if reviewer checked "One":
+  - "About how long did it take you to do the HIT?"
+    - hours
+    - minutes
+    - seconds
+  - "Has your work been approved or rejected yet?"
+    - yes
+    - no
+  - If reviewer selected "yes":
+    - How long did the requester take to approve or reject your work?
+      - check box: "less than one day" (when checked, "days" field disappears)
+      - short text entry: number of days
+    - Was your work rejected?
+      - yes
+      - no
+  - Did you try to communicate with the requester about this HIT?
+    - yes
+    - no
+  - If reviewer selected "yes":
+    - Did the reviewer respond to your satisfaction?
+      - yes
+      - no
+- if reviewer checked "More than one"
+  - "About how long did it take you to do each HIT?"
+    - hours
+    - minutes
+    - seconds
+  - "Has your work been approved or rejected yet?"
+    - yes
+    - some
+    - no
+  - If reviewer selected "yes" or "some":
+    - How long did the requester take to approve or reject your work?
+      - check box: "less than one day" (when checked, "days" field disappears)
+      - short text entry: number of days
+    - Was your work rejected?
+      - yes
+      - some
+      - no
+  - Did you try to communicate with the requester about this HIT?
+    - yes
+    - no
+  - If reviewer selected "yes":
+    - Did the reviewer respond to your satisfaction?
+      - yes
+      - no
+- Additional info (review body)
